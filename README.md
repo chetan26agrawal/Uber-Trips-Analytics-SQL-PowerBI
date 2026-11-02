@@ -1,17 +1,11 @@
-# 🚕 Uber Trips Analytics | SQL & Power BI
+# 🚕 Uber Trips Analytics | SQL & Power BI Capstone Project
 
 ![Project](https://img.shields.io/badge/Project-Capstone-yellow)
 ![SQL](https://img.shields.io/badge/SQL-Advanced-blue)
-![Power%20BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
-![Analytics](https://img.shields.io/badge/Domain-Data%20Analytics-green)
+![Power BI](https://img.shields.io/badge/Power%20BI-Interactive%20Dashboard-yellow)
+![Domain](https://img.shields.io/badge/Domain-Data%20Analytics-green)
 
-## 📌 Project Overview
-
-**Uber Trips Analytics** is an end-to-end data analytics capstone project focused on analyzing New York City Green Taxi trip data.
-
-The project aims to uncover meaningful insights from trip records to understand trip volume, revenue patterns, geographic distribution, passenger behavior, payment preferences, and operational performance.
-
-Using **Advanced SQL and Power BI**, this project transforms historical taxi trip data into actionable business insights that can support better fleet management, dynamic pricing strategies, operational efficiency, and improved passenger experience.
+**An End-to-End Data Analytics Project on NYC Green Taxi Trip Records**
 
 ---
 
@@ -22,86 +16,125 @@ Using **Advanced SQL and Power BI**, this project transforms historical taxi tri
 3. [Project Objectives](#-project-objectives)
 4. [Dataset Information](#-dataset-information)
 5. [Tools & Technologies](#-tools--technologies)
-6. [Key Dataset Fields](#-key-dataset-fields)
+6. [Dataset Fields](#-dataset-fields)
 7. [Project Methodology](#-project-methodology)
 8. [Part 1: Advanced SQL Analysis](#-part-1-advanced-sql-analysis)
-9. [Part 2: Power BI Dashboard](#-part-2-power-bi-dashboard)
+9. [Part 2: Power BI Dashboard](#-part-2-interactive-power-bi-dashboard)
 10. [Key Performance Indicators](#-key-performance-indicators)
-11. [Dashboard Insights](#-dashboard-insights)
+11. [Key Business Insights](#-key-business-insights)
 12. [Business Recommendations](#-business-recommendations)
 13. [Project Outcomes](#-project-outcomes)
 14. [Repository Structure](#-repository-structure)
-15. [How to Explore This Project](#-how-to-explore-this-project)
+15. [How to Run This Project](#-how-to-run-this-project)
 16. [Future Scope](#-future-scope)
 17. [Conclusion](#-conclusion)
-18. [Author](#-author)
+18. [About Me](#-about-me)
+
+---
+
+## 📌 Project Overview
+
+Uber Trips Analytics is an end-to-end Data Analytics Capstone Project focused on analyzing New York City Green Taxi trip records.
+
+The objective of this project is to uncover meaningful business insights from historical taxi trip data using **Advanced SQL and Power BI**.
+
+The analysis covers trip volumes, revenue patterns, geographic distribution, passenger behavior, payment preferences, and operational efficiency.
+
+The project demonstrates how data analytics can help businesses make informed decisions regarding fleet management, pricing optimization, and customer experience.
+
+### 🔑 Key Focus Areas
+
+- 🚕 Trip Trends & Volume Analysis
+- 💰 Revenue & Fare Analysis
+- 📍 Geographic & Route Analysis
+- 👥 Passenger Behavior Analysis
+- 💳 Payment & Tip Analysis
+- 📈 Demand Forecasting Scope
 
 ---
 
 ## 🎯 Business Problem
 
-The Uber Taxi & Limousine Commission needs to analyze Green Taxi trip data to identify trends, improve operational efficiency, optimize fleet management, set dynamic pricing, and enhance customer experience in New York City.
+The Uber Taxi & Limousine Commission needs to analyze Green Taxi trip data to identify trends, improve operational efficiency, optimize fleet management, set pricing, and enhance customer experience in New York City.
 
-Understanding trip patterns, revenue trends, geographic demand, and passenger behavior is essential to:
+Understanding trip patterns, revenue trends, geographic demand, and passenger behavior is essential to improve operational performance and support data-driven decisions.
 
-- Improve fleet allocation.
+### Business Goals
+
+- Improve fleet allocation and scheduling.
+- Identify peak demand periods.
 - Optimize pricing strategies.
-- Increase revenue and operational efficiency.
-- Reduce passenger waiting times.
-- Enhance passenger satisfaction.
+- Understand customer travel behavior.
+- Analyze revenue and payment patterns.
+- Improve passenger experience.
+
+---
 
 ## 🎯 Project Objectives
 
-The main objectives of this project are:
-
-- Analyze historical trip volume and revenue trends.
-- Identify peak demand days, hours, and high-demand locations.
-- Analyze fare, tips, and payment patterns.
-- Understand passenger behavior and trip characteristics.
-- Identify popular pickup and drop-off routes.
-- Provide data-driven recommendations for fleet scheduling and pricing strategies.
-- Explore demand forecasting to support future resource planning.
+1. Analyze historical trip volumes and revenue trends.
+2. Identify peak demand days, hours, and high-demand locations.
+3. Understand geographic trip distribution and popular routes.
+4. Analyze passenger count and trip distance patterns.
+5. Examine payment methods and tip behavior.
+6. Develop interactive dashboards for business monitoring.
+7. Provide actionable recommendations for operational efficiency.
+8. Explore predictive demand forecasting.
 
 ---
 
 ## 📂 Dataset Information
 
-**Dataset Name:** NYC Green Taxi Trip Records
+**Dataset:** NYC Green Taxi Trip Records
 
-**Dataset Source:** New York City Taxi & Limousine Commission (TLC)
+**Source:** New York City Taxi & Limousine Commission (TLC)
 
-**Dataset Link:** [Uber Taxi Trips – NYC](https://wscubetechpvtltd-my.sharepoint.com/:u:/g/personal/ayushi_jain_wscubetech_com/IQBQxgFAOtljWyiNHKoult5oAcO2H5i9KMp2Hd9W0_COEqo?e=tzT7hL)
+**Dataset Link:** [Download Uber Taxi Trips - NYC](https://wscubetechpvtltd-my.sharepoint.com/:u:/g/personal/ayushi_jain_wscubetech_com/IQBQxgFAOtljWyiNHKoult5oAcO2H5i9KMp2Hd9W0_COEqo?e=tzT7hL)
 
-The dataset contains historical Green Taxi trip records from New York City with information related to:
+The dataset contains historical taxi trip records with information about:
 
-- Pickup and drop-off dates and times.
+- Pickup and drop-off timestamps.
 - Pickup and drop-off boroughs.
 - Pickup and drop-off zones.
-- Trip distance.
 - Passenger count.
+- Trip distance.
 - Fare amount.
 - Tip amount.
 - Payment type.
+- Total trip amount.
+
+**SQL Analysis Period:** 2017–2020.
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-| Tool / Technology | Purpose |
+| Tool | Purpose |
 |---|---|
-| SQL | Data analysis and solving business questions |
-| Power BI | Interactive dashboard development |
-| Power Query | Data transformation and preparation |
-| DAX | KPI calculations and dashboard metrics |
+| SQL | Data analysis and business problem solving |
+| MySQL | Query execution and data analysis |
+| Power BI | Interactive dashboards and visualizations |
 | CSV | Dataset storage and data import |
+
+### SQL Concepts Used
+
+- Common Table Expressions (CTEs)
+- UNION ALL
+- Aggregate Functions
+- GROUP BY
+- ORDER BY
+- JOIN Operations
+- Window Functions
+- LAG()
+- Date and Time Functions
+- Percentage Calculations
+- ROUND()
 
 ---
 
-## 🗂️ Key Dataset Fields
+## 📊 Dataset Fields
 
-The following fields were used for the analysis:
-
-| Column Name | Description |
+| Column | Description |
 |---|---|
 | `tpep_pickup_datetime` | Pickup date and time |
 | `tpep_dropoff_datetime` | Drop-off date and time |
@@ -110,91 +143,187 @@ The following fields were used for the analysis:
 | `pickup_zone` | Pickup zone |
 | `dropoff_zone` | Drop-off zone |
 | `passenger_count` | Number of passengers |
-| `trip_distance` | Trip distance in miles |
+| `trip_distance` | Trip distance |
 | `fare_amount` | Trip fare |
 | `tip_amount` | Tip amount |
 | `payment_type` | Payment method |
+| `total_amount` | Total trip amount |
 
 ---
 
 ## ⚙️ Project Methodology
 
-The project follows a structured data analytics workflow:
+The project follows a structured data analytics workflow.
 
 **1. Data Collection**
-- Importing CSV data into SQL.
+- Collected NYC Green Taxi trip records.
+- Imported CSV files into SQL.
+- Organized yearly staging tables.
 
 **2. Data Cleaning**
-- Handling missing values.
-- Removing duplicate records.
-- Data type conversion.
-- Preparing data for analysis.
+- Handled missing values.
+- Checked duplicate records.
+- Prepared data for analysis.
+- Performed data type conversions.
 
 **3. SQL Analysis**
-- Solving 10 business questions using SQL queries.
-- Analyzing trip trends, revenue, routes, passenger behavior, and payment patterns.
+- Combined yearly trip records.
+- Solved 10 business questions.
+- Analyzed trip trends, revenue, routes, passenger behavior, and payment patterns.
 
 **4. Dashboard Development**
-- Creating 5 interactive Power BI dashboards.
-- Developing KPIs and visualizations.
-- Adding interactive filters and navigation.
+- Created five interactive Power BI dashboard pages.
+- Developed KPI cards and charts.
+- Added interactive filters and navigation.
 
-**5. Insights & Recommendations**
-- Identifying important business patterns.
-- Providing actionable recommendations for fleet scheduling, pricing, and passenger service improvements.
-
----
-
-## 💻 Part 1: Advanced SQL Analysis
-
-The SQL analysis focuses on extracting actionable insights from taxi trip records.
-
-### 🔍 Business Questions Solved
-
-**1. Yearly Trip Trends**
-- Calculate total trips per year.
-- Calculate percentage change year-over-year.
-
-**2. Monthly Revenue Insights**
-- Find monthly total revenue.
-- Calculate average revenue per trip.
-
-**3. Peak Day & Time Analysis**
-- Identify the day of the week with the highest average trip volumes.
-- Identify the hour of the day with the highest average trip volumes.
-
-**4. Borough Trip Distribution**
-- Calculate the percentage of trips starting in each `pickup_borough`.
-
-**5. Top Pickup-Dropoff Routes**
-- Identify the top 10 most frequent pickup-zone to drop-off-zone combinations.
-
-**6. Passenger Load Patterns**
-- Calculate the average `passenger_count` for trips in each borough.
-
-**7. Trip Distance Distribution**
-- Determine the average `trip_distance` for each pickup borough and drop-off borough.
-
-**8. Payment Method Analysis**
-- Calculate the percentage share of each `payment_type`.
-- Calculate the average `fare_amount` for each payment type.
-
-**9. High-Tip Routes**
-- Identify the top 5 pickup-drop-off combinations with the highest average `tip_amount`.
-
-**10. Revenue by Borough Pairs**
-- Calculate total `total_amount` earned for each pickup-borough to drop-off-borough pair.
+**5. Business Insights**
+- Identified demand and revenue patterns.
+- Analyzed passenger and payment behavior.
+- Developed business recommendations.
 
 ---
 
-## 📊 Part 2: Interactive Power BI Dashboard
+# 💻 Part 1: Advanced SQL Analysis
 
-Developed **5 interactive dashboard pages** to visualize trip trends, revenue breakdowns, geographic patterns, and passenger behavior.
+The SQL analysis focuses on answering 10 business questions to understand taxi operations, demand patterns, revenue, and operational efficiency.
 
-### 1️⃣ Trip & Revenue Overview
+### 1️⃣ Yearly Trip Trends
 
-<details>
-<summary><b>View Dashboard Details</b></summary>
+**Business Question:**
+Calculate total trips per year and percentage change year-over-year.
+
+**Analysis:**
+- Calculated yearly trip volumes.
+- Compared trips across different years.
+- Used the LAG() window function to calculate year-over-year changes.
+
+### 2️⃣ Monthly Revenue Insights
+
+**Business Question:**
+Find monthly total revenue and average revenue per trip.
+
+**Analysis:**
+- Calculated monthly revenue.
+- Analyzed average revenue per trip.
+- Compared revenue patterns across months.
+
+### 3️⃣ Peak Day & Time Analysis
+
+**Business Question:**
+Identify the day of the week and hour of the day with the highest average trip volumes.
+
+**Top Demand Time Slots from SQL Results:**
+
+| Day | Time Slot | Average Trips |
+|---|---|---:|
+| Friday | 17:00–18:00 | 1166.86 |
+| Friday | 19:00–20:00 | 1120.03 |
+| Thursday | 18:00–19:00 | 1115.69 |
+| Friday | 16:00–17:00 | 1086.65 |
+| Thursday | 17:00–18:00 | 1085.39 |
+
+### 4️⃣ Borough Trip Distribution
+
+**Business Question:**
+Find the percentage of trips starting in each pickup borough.
+
+**SQL Results:**
+
+| Pickup Borough | Total Trips | Percentage |
+|---|---:|---:|
+| Manhattan | 6,241,731 | 33.40% |
+| Brooklyn | 5,784,791 | 30.96% |
+| Queens | 5,409,427 | 28.93% |
+| Bronx | 1,210,186 | 6.48% |
+| Unknown | 36,326 | 0.19% |
+
+### 5️⃣ Top Pickup-Dropoff Routes
+
+**Business Question:**
+Identify the top 10 most frequent pickup-zone to drop-off-zone combinations.
+
+**Analysis:**
+- Joined pickup and drop-off zone information.
+- Counted trips for each route.
+- Ranked routes by trip frequency.
+
+### 6️⃣ Passenger Load Patterns
+
+**Business Question:**
+Find the average passenger count for trips in each borough.
+
+**SQL Results:**
+
+| Borough | Average Passengers |
+|---|---:|
+| Manhattan | 1.2887 |
+| Brooklyn | 1.3283 |
+| Queens | 1.4010 |
+| Bronx | 1.2909 |
+| Unknown | 1.2381 |
+
+### 7️⃣ Trip Distance Distribution
+
+**Business Question:**
+Determine the average trip distance for each pickup borough and drop-off borough.
+
+**Analysis:**
+- Analyzed trip distances.
+- Grouped records by pickup and drop-off borough.
+- Calculated average trip distance.
+
+### 8️⃣ Payment Method Analysis
+
+**Business Question:**
+Calculate the percentage share of each payment type and their average fare amount.
+
+**SQL Results:**
+
+| Payment Type | Total Trips | Percentage Share | Average Fare |
+|---|---:|---:|---:|
+| 1 | 9,397,280 | 53.28% | 15.22 |
+| 2 | 7,174,453 | 40.68% | 10.69 |
+| 3 | 82,897 | 0.47% | 3.01 |
+| 4 | 36,487 | 0.21% | 3.97 |
+| 5 | 663 | 0.00% | 10.74 |
+
+### 9️⃣ High-Tip Routes
+
+**Business Question:**
+Find the top 5 pickup-dropoff combinations with the highest average tip amount.
+
+**Top 5 Routes:**
+
+| Pickup Zone | Drop-off Zone | Trips | Average Tip |
+|---|---|---:|---:|
+| Washington Heights South | Heartland Village/Todt Hill | 11 | 17.71 |
+| Morningside Heights | Eltingville/Annadale/Prince's Bay | 11 | 17.71 |
+| LaGuardia Airport | DUMBO/Vinegar Hill | 13 | 17.67 |
+| Flatbush/Ditmas Park | Newark Airport | 10 | 17.51 |
+| Flushing | Newark Airport | 10 | 17.39 |
+
+### 🔟 Revenue by Borough Pairs
+
+**Business Question:**
+Calculate total amount earned for each pickup borough to drop-off borough pair.
+
+**SQL Results:**
+
+| Pickup Borough | Drop-off Borough | Total Trips | Total Revenue |
+|---|---|---:|---:|
+| Manhattan | Manhattan | 5,220,727 | 65,094,919.30 |
+| Brooklyn | Brooklyn | 4,273,039 | 62,748,454.98 |
+| Queens | Queens | 4,465,151 | 57,802,084.18 |
+| Brooklyn | Manhattan | 774,284 | 22,919,660.33 |
+| Bronx | Bronx | 807,010 | 12,735,130.67 |
+
+---
+
+# 📈 Part 2: Interactive Power BI Dashboard
+
+Developed five interactive dashboard pages to visualize trip trends, revenue breakdowns, demand patterns, geographic insights, passenger behavior, and payment preferences.
+
+## 1️⃣ Trip & Revenue Overview
 
 **KPIs:**
 - Total Trips
@@ -204,109 +333,84 @@ Developed **5 interactive dashboard pages** to visualize trip trends, revenue br
 
 **Visualizations:**
 - Monthly Revenue Analysis
-- Year-over-Year Growth
+- Yearly Trip Trends
 - Fare Distribution
 
-**Purpose:** Understand overall trip performance and revenue trends.
+**Objective:** Understand overall trip performance and revenue trends.
 
-</details>
-
-### 2️⃣ Time-Based Demand Analysis
-
-<details>
-<summary><b>View Dashboard Details</b></summary>
+## 2️⃣ Time-Based Demand Analysis
 
 **KPIs:**
-- Total Trips
-- Average Trip Distance
-- Average Fare per Trip
-- Total Zones
+- Peak Day
+- Peak Hour
+- Trip Volume by Time
 
 **Visualizations:**
 - Trips by Day
 - Trips by Hour
-- Time-Based Demand Distribution
+- Time-Based Demand Analysis
 
-**Purpose:** Identify peak demand periods and understand trip patterns across different days and hours.
+**Objective:** Identify peak demand periods and understand trip patterns throughout the day.
 
-</details>
-
-### 3️⃣ Geographic Patterns
-
-<details>
-<summary><b>View Dashboard Details</b></summary>
+## 3️⃣ Geographic Patterns
 
 **KPIs:**
-- Total Zones
-- Total Boroughs
-- Average Trip Distance
-- Total Trips
+- Top Pickup Boroughs
+- Top Drop-off Boroughs
 
 **Visualizations:**
-- Trips by Borough
-- Borough Analysis
-- Average Trips by Pickup Zone and Drop-off Zone
+- Borough Trip Distribution
+- Top Pickup-Dropoff Routes
+- Borough-Level Geographic Analysis
 
-**Purpose:** Understand geographic trip distribution and identify important pickup and drop-off locations.
+**Objective:** Understand geographic trip distribution and identify high-demand locations.
 
-</details>
-
-### 4️⃣ Passenger & Distance Insights
-
-<details>
-<summary><b>View Dashboard Details</b></summary>
+## 4️⃣ Passenger & Distance Insights
 
 **KPIs:**
 - Average Passengers per Trip
 - Average Trip Distance
 
 **Visualizations:**
-- Total Trips by Passenger Count
+- Passenger Count Distribution
 - Average Trip Distance by Borough
 
-**Purpose:** Analyze passenger load patterns and trip distance characteristics across boroughs.
+**Objective:** Analyze passenger behavior and trip distance characteristics.
 
-</details>
-
-### 5️⃣ Payment & Tips Insights
-
-<details>
-<summary><b>View Dashboard Details</b></summary>
+## 5️⃣ Payment & Tips Insights
 
 **KPIs:**
-- Average Tip
 - Payment Type Share
+- Average Tip by Route
 
 **Visualizations:**
-- Payment Type Distribution
-- Tips by Borough
+- Payment Method Distribution
+- High-Tip Routes
+- Tips Analysis
 
-**Purpose:** Understand payment preferences and analyze tip patterns across different boroughs.
+**Objective:** Understand payment preferences and tip patterns.
 
-</details>
+### 🎛️ Dashboard Filters & Interactivity
 
-### 🎛️ Dashboard Interactivity
-
-The Power BI dashboards include:
-
-- Interactive page navigation.
-- Year and month filters.
-- Day of week and time filters.
-- Borough and zone filters.
-- Payment type filters.
-- Cross-filtering between visuals.
+- Date Range
+- Borough
+- Payment Type
+- Passenger Count
+- Zone-Level Drill-Down
+- Interactive Dashboard Navigation
 
 ---
 
-## 📈 Key Performance Indicators
+## 📌 Key Performance Indicators
 
-The following KPI values are displayed in the Power BI dashboards:
+The following values are displayed in the Power BI dashboards.
 
-| KPI | Dashboard Value |
+| KPI | Value |
 |---|---:|
 | Total Trips | 18M |
 | Total Revenue | 292.31M |
 | Average Fare per Trip | 18.45 |
+| YOY Trips | -4E-16 |
 | Average Trip Distance | 4.58 |
 | Total Zones | 262 |
 | Total Boroughs | 7 |
@@ -314,146 +418,197 @@ The following KPI values are displayed in the Power BI dashboards:
 | Average Tip | 1.04 |
 | Payment Type Share | 1.00 |
 
-*Note: Values are presented as displayed in the project dashboards.*
+*Note: Values are reproduced in the format displayed in the project dashboard.*
 
 ---
 
-## 🔎 Dashboard Insights
+## 🔍 Key Business Insights
 
-The dashboards provide the following analytical observations:
+**🚕 Trip & Demand Analysis**
+- Friday evening time slots show high average trip volumes in the SQL results.
+- Peak-hour analysis helps identify periods requiring additional fleet availability.
 
-- **Trip & Revenue Trends:** Monthly revenue and year-over-year trip trends provide an overview of business performance.
-- **Time-Based Demand:** Daily and hourly trip patterns help identify periods of higher demand.
-- **Geographic Distribution:** Borough-wise trip distribution and zone-level analysis highlight popular travel locations.
-- **Passenger Behavior:** Passenger count and average trip distance provide insights into travel characteristics.
-- **Payment & Tips:** Payment type distribution and borough-wise tip analysis help understand customer payment preferences and tipping patterns.
+**💰 Revenue Analysis**
+- Total revenue displayed in the dashboard is 292.31M.
+- Average fare per trip is 18.45.
+- Monthly revenue analysis helps understand revenue patterns.
+
+**📍 Geographic Analysis**
+- Manhattan contributes 33.40% of pickup trips.
+- Brooklyn contributes 30.96%.
+- Queens contributes 28.93%.
+- Borough and zone analysis helps identify important travel locations.
+
+**👥 Passenger Analysis**
+- Average passengers per trip is 1.33.
+- Average trip distance is 4.58.
+- Passenger distribution provides insights into travel behavior.
+
+**💳 Payment Analysis**
+- Payment Type 1 contributes 53.28% of trips.
+- Payment Type 2 contributes 40.68%.
+- Average tip displayed in the dashboard is 1.04.
 
 ---
 
 ## 💡 Business Recommendations
 
-Based on the SQL analysis and Power BI dashboards, the following recommendations were developed.
-
 ### 🚕 1. Fleet Scheduling
 
 - Allocate more drivers and vehicles during peak days and peak hours.
-- Focus on high-demand routes and improve service quality on those routes.
+- Focus on high-demand routes.
 - Adjust fleet distribution across boroughs based on trip demand.
 
 ### 💰 2. Pricing Optimization
 
 - Review pricing strategies based on monthly revenue and trip value trends.
-- Use average revenue per trip to understand earning patterns.
+- Analyze average fare per trip.
 - Consider demand patterns when evaluating pricing strategies.
 
 ### 👥 3. Passenger Service Improvement
 
-- Enhance customer experience for longer trips and preferred payment methods.
-- Promote preferred payment methods to increase usage and revenue.
+- Improve service availability on popular routes.
+- Enhance customer experience for longer trips.
 - Use passenger and distance insights to improve service planning.
 
 ---
 
 ## 🏆 Project Outcomes
 
-Through this capstone project:
-
-- Analyzed Uber Green Taxi trip data using SQL and Power BI.
-- Solved 10 business questions using SQL analysis.
-- Created 5 interactive Power BI dashboards.
+- Analyzed NYC Green Taxi trip data using SQL and Power BI.
+- Solved 10 business questions using SQL.
+- Developed five interactive Power BI dashboards.
 - Analyzed trip trends, revenue patterns, and passenger behavior.
-- Identified peak times, popular routes, borough-wise distribution, payment methods, and tip patterns.
-- Developed actionable recommendations for fleet management, pricing, and passenger service improvements.
+- Identified peak demand periods and popular routes.
+- Evaluated borough-wise trip distribution.
+- Analyzed payment preferences and tip patterns.
+- Developed data-driven business recommendations.
 
 ---
 
 ## 📁 Repository Structure
 
-A suggested structure for organizing the project files:
-
 ```text
 Uber-Trips-Analytics-SQL-PowerBI/
 │
-├── 📂 Dataset/
-│   └── green_taxi_trips.csv
+├── Dataset/
+│   └── Green_Taxi_Trip_Data.csv
 │
-├── 📂 SQL/
-│   ├── 01_yearly_trip_trends.sql
-│   ├── 02_monthly_revenue_insights.sql
-│   ├── 03_peak_day_time_analysis.sql
-│   ├── 04_borough_trip_distribution.sql
-│   ├── 05_top_pickup_dropoff_routes.sql
-│   ├── 06_passenger_load_patterns.sql
-│   ├── 07_trip_distance_analysis.sql
-│   ├── 08_payment_method_analysis.sql
-│   ├── 09_high_tip_routes.sql
-│   └── 10_revenue_by_borough_pairs.sql
+├── SQL/
+│   ├── Question_01_Yearly_Trip_Trends.sql
+│   ├── Question_02_Monthly_Revenue_Insights.sql
+│   ├── Question_03_Peak_Day_Time_Analysis.sql
+│   ├── Question_04_Borough_Trip_Distribution.sql
+│   ├── Question_05_Top_Pickup_Dropoff_Routes.sql
+│   ├── Question_06_Passenger_Load_Patterns.sql
+│   ├── Question_07_Trip_Distance_Analysis.sql
+│   ├── Question_08_Payment_Method_Analysis.sql
+│   ├── Question_09_High_Tip_Routes.sql
+│   └── Question_10_Revenue_By_Borough_Pairs.sql
 │
-├── 📂 PowerBI/
+├── PowerBI/
 │   └── Uber_Trips_Analytics.pbix
 │
-├── 📂 Dashboard_Screenshots/
+├── Dashboard_Screenshots/
 │   ├── Trip_Revenue_Overview.png
 │   ├── Time_Based_Demand_Analysis.png
 │   ├── Geographic_Patterns.png
 │   ├── Passenger_Distance_Insights.png
 │   └── Payment_Tips_Insights.png
 │
-├── 📂 Reports/
+├── Reports/
 │   └── Uber_Trips_Analytics_Project.pdf
 │
 └── README.md
 ```
 
-*Note: This is the recommended repository structure. Add only the files that are actually included in your GitHub repository.*
+*Note: This is a suggested folder structure. Update filenames according to the actual files uploaded to GitHub.*
 
 ---
 
-## 🚀 How to Explore This Project
+## 🚀 How to Run This Project
 
-1. Clone or download this repository.
-2. Download the NYC Green Taxi dataset from the dataset source.
-3. Import the CSV dataset into your SQL environment.
-4. Execute the SQL queries to explore the 10 business questions.
-5. Open the Power BI `.pbix` file using Power BI Desktop.
-6. Explore the five interactive dashboard pages.
-7. Review the dashboard insights and business recommendations.
+**Step 1: Clone the Repository**
+
+```bash
+git clone https://github.com/chetan26agrawal/Uber-Trips-Analytics-SQL-PowerBI.git
+```
+
+**Step 2: Download the Dataset**
+
+Download the NYC Green Taxi dataset using the dataset link provided above.
+
+**Step 3: Import Dataset into MySQL**
+
+- Open MySQL Workbench.
+- Create a database.
+- Import the CSV dataset.
+- Prepare the required staging tables and zone lookup data.
+
+**Step 4: Execute SQL Queries**
+
+Run the 10 SQL scripts available in the SQL folder.
+
+**Step 5: Open Power BI Dashboard**
+
+- Open Power BI Desktop.
+- Load the `.pbix` file.
+- Configure the data source if required.
+- Explore all five dashboard pages.
+
+**Step 6: Explore Business Insights**
+
+Analyze KPI cards, charts, filters, trip patterns, and business recommendations.
 
 ---
 
 ## 🔮 Future Scope
 
-The project can be further extended through:
+The project can be extended through:
 
-- Developing a predictive demand forecasting model using historical trip data.
+- Developing a predictive demand forecasting model.
 - Analyzing seasonal demand variations.
-- Improving real-time fleet allocation strategies.
-- Exploring advanced pricing optimization techniques.
-- Building more detailed geographic demand analysis.
+- Improving real-time fleet allocation.
+- Exploring advanced pricing optimization.
+- Performing deeper geographic demand analysis.
+- Applying machine learning for future trip demand prediction.
+
+*Note: Predictive forecasting is part of the project objective and future scope; a completed forecasting model is not documented in the submitted project presentation.*
 
 ---
 
 ## 📝 Conclusion
 
-This project demonstrates how SQL and Power BI can be used together to transform raw taxi trip records into meaningful business insights.
+This Uber Trips Analytics project demonstrates how SQL and Power BI can be used together to transform raw taxi trip records into meaningful business insights.
 
-By analyzing trip trends, revenue patterns, geographic distribution, passenger behavior, and payment preferences, the project provides a comprehensive understanding of taxi operations.
+By analyzing trip trends, revenue patterns, geographic distribution, passenger behavior, payment preferences, and tip patterns, the project provides a comprehensive understanding of taxi operations in New York City.
 
-The five interactive Power BI dashboards and SQL-based analysis support data-driven decision-making for better fleet management, pricing strategies, operational efficiency, and passenger experience.
+The 10 SQL business questions and five interactive Power BI dashboards support data-driven decision-making for improved fleet scheduling, pricing optimization, operational efficiency, and passenger experience.
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 About Me
 
-**Chetan Agrawal**
+## Chetan Agrawal
 
-🎯 Aspiring Data Analyst | SQL | Python | Power BI | Data Analytics
+🎯 **Aspiring Data Analyst | SQL | Python | Power BI | Data Analytics**
 
-- 🐙 **GitHub:** [github.com/chetan26agrawal](https://github.com/chetan26agrawal)
-- 💼 **LinkedIn:** [linkedin.com/in/chetan-agrawal-725428162](https://www.linkedin.com/in/chetan-agrawal-725428162/)
+I am passionate about data analytics, exploring datasets, solving real-world business problems, and transforming raw data into meaningful insights.
+
+I enjoy working with SQL, Python, and Power BI to analyze data, identify trends, and communicate actionable business insights.
+
+### 🌐 Connect With Me
+
+🐙 **GitHub Profile:**
+
+https://github.com/chetan26agrawal
+
+💼 **LinkedIn Profile:**
+
+https://www.linkedin.com/in/chetan-agrawal-725428162/
 
 ---
 
 ⭐ If you find this project interesting, feel free to explore the repository and share your feedback!
 
-**Thank You! 🚀**
+**Thank You for Visiting My Project! 🚀**

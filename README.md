@@ -1,6 +1,6 @@
 # 🚕 Uber Trips Analytics | SQL & Power BI
 
-A data analytics project focused on exploring NYC Green Taxi trip data using **SQL and Power BI**. The project analyzes trip trends, revenue patterns, passenger behavior, geographic distribution, payment methods, and tips to generate meaningful business insights.
+A data analytics project focused on exploring NYC Green Taxi Trip Records using SQL and Power BI. This project analyzes trip trends, revenue patterns, passenger behavior, geographic distribution, payment methods, and tips to generate meaningful business insights.
 
 ---
 
@@ -27,7 +27,8 @@ A data analytics project focused on exploring NYC Green Taxi trip data using **S
 
 ---
 
-## 1. Project Overview
+<a id="project-overview"></a>
+## 1. 🚀 Project Overview
 
 The **Uber Trips Analytics** project focuses on analyzing NYC Green Taxi trip records to understand transportation trends, revenue performance, customer behavior, and operational patterns.
 
@@ -35,7 +36,10 @@ SQL is used to query and analyze the dataset, while Power BI is used to build an
 
 The project aims to convert raw trip data into meaningful insights that can support data-driven business decisions.
 
-## 2. Project Objectives
+---
+
+<a id="project-objectives"></a>
+## 2. 🎯 Project Objectives
 
 - Analyze yearly and monthly trip trends.
 - Understand revenue performance over time.
@@ -47,7 +51,10 @@ The project aims to convert raw trip data into meaningful insights that can supp
 - Build an interactive Power BI dashboard.
 - Generate actionable business recommendations.
 
-## 3. Dataset Description
+---
+
+<a id="dataset-description"></a>
+## 3. 📂 Dataset Description
 
 **Dataset:** NYC Green Taxi Trip Records
 
@@ -57,7 +64,10 @@ The analysis uses the available dataset fields and their corresponding records.
 
 *Note: Actual results depend on the dataset and the data-cleaning and transformation steps performed during the project.*
 
-## 4. Tools and Technologies
+---
+
+<a id="tools-and-technologies"></a>
+## 4. 🛠️ Tools and Technologies
 
 | Tool | Purpose |
 |---|---|
@@ -68,7 +78,10 @@ The analysis uses the available dataset fields and their corresponding records.
 | Microsoft Excel | Data inspection and preparation |
 | GitHub | Project documentation and portfolio |
 
-## 5. Business Questions
+---
+
+<a id="business-questions"></a>
+## 5. 💡 Business Questions
 
 The project addresses the following business questions:
 
@@ -83,7 +96,10 @@ The project addresses the following business questions:
 9. Which routes generate the highest tips?
 10. How does revenue vary across different borough-to-borough combinations?
 
-## 6. SQL Analysis
+---
+
+<a id="sql-analysis"></a>
+## 6. 🗄️ SQL Analysis
 
 SQL is used to explore the dataset and answer the business questions through queries and aggregations.
 
@@ -102,13 +118,19 @@ The analysis covers:
 
 These queries help identify patterns in trip demand, revenue generation, passenger activity, and customer payment behavior.
 
-## 7. Power BI Dashboard
+---
+
+<a id="power-bi-dashboard"></a>
+## 7. 📊 Power BI Dashboard
 
 An interactive Power BI dashboard is developed to present the analysis in five pages.
 
 The dashboard is organized into the following sections:
 
-## 8. Trip and Revenue Overview
+---
+
+<a id="trip-and-revenue-overview"></a>
+## 8. 💰 Trip and Revenue Overview
 
 This page provides a high-level view of overall trip activity and revenue performance.
 
@@ -120,7 +142,10 @@ It focuses on:
 - Trip and revenue trends.
 - Overall performance indicators.
 
-## 9. Time-Based Demand Analysis
+---
+
+<a id="time-based-demand-analysis"></a>
+## 9. ⏰ Time-Based Demand Analysis
 
 This page focuses on understanding how trip demand changes over time.
 
@@ -132,7 +157,10 @@ It covers:
 - Hour-wise trip activity.
 - Peak demand periods.
 
-## 10. Geographic Patterns
+---
+
+<a id="geographic-patterns"></a>
+## 10. 📍 Geographic Patterns
 
 This page explores the geographic distribution of taxi trips.
 
@@ -144,7 +172,10 @@ It includes:
 - Borough-wise trip patterns.
 - Revenue patterns across borough combinations.
 
-## 11. Passenger and Distance Insights
+---
+
+<a id="passenger-and-distance-insights"></a>
+## 11. 🚖 Passenger and Distance Insights
 
 This page focuses on passenger activity and trip distance patterns.
 
@@ -155,7 +186,10 @@ It includes:
 - Distance comparisons across boroughs.
 - Passenger-related trip patterns.
 
-## 12. Payment and Tips Insights
+---
+
+<a id="payment-and-tips-insights"></a>
+## 12. 💳 Payment and Tips Insights
 
 This page analyzes payment behavior and tipping patterns.
 
@@ -167,7 +201,10 @@ It covers:
 - High-tip routes.
 - Customer payment preferences.
 
-## 13. Key Business Insights
+---
+
+<a id="key-business-insights"></a>
+## 13. 🔍 Key Business Insights
 
 The SQL analysis and Power BI dashboard are designed to help identify:
 
@@ -182,7 +219,10 @@ The SQL analysis and Power BI dashboard are designed to help identify:
 
 *The actual findings should be interpreted from the results generated by the project queries and dashboard.*
 
-## 14. Business Recommendations
+---
+
+<a id="business-recommendations"></a>
+## 14. 📈 Business Recommendations
 
 Based on the patterns identified through the analysis, businesses can use the findings to:
 
@@ -194,9 +234,12 @@ Based on the patterns identified through the analysis, businesses can use the fi
 - Evaluate route-level performance.
 - Use trip and tipping patterns to improve operational planning.
 
-## 15. Project Structure
+---
 
-The repository is organized to keep project files and documentation easy to navigate.
+<a id="project-structure"></a>
+## 15. 📁 Project Structure
+
+The repository can be organized as follows. Adjust the folder and file names to match the files actually uploaded to your repository.
 
 ```text
 Uber-Trips-Analytics-SQL-PowerBI/
@@ -216,9 +259,10 @@ Uber-Trips-Analytics-SQL-PowerBI/
 └── README.md
 ```
 
-*Folder and file names above represent a suggested organization. Adjust them to match the files actually uploaded to your repository.*
+---
 
-## 16. How to Use This Project
+<a id="how-to-use-this-project"></a>
+## 16. ▶️ How to Use This Project
 
 1. Clone or download this repository.
 2. Download or access the NYC Green Taxi Trip Records dataset.
@@ -228,7 +272,10 @@ Uber-Trips-Analytics-SQL-PowerBI/
 6. Refresh the data if required.
 7. Explore the dashboard pages and their visualizations.
 
-## 17. Conclusion
+---
+
+<a id="conclusion"></a>
+## 17. 🏁 Conclusion
 
 The Uber Trips Analytics project demonstrates how SQL and Power BI can be used together to analyze transportation data and extract useful business insights.
 
@@ -239,7 +286,6 @@ This project strengthened practical skills in data analysis, SQL querying, data 
 ---
 
 <a id="about-me"></a>
-
 ## 18. 👨‍💻 About Me
 
 **Chetan Agrawal**

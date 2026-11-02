@@ -447,11 +447,10 @@ The five interactive Power BI dashboards and SQL-based analysis support data-dri
 
 **Chetan Agrawal**
 
-Aspiring Data Analyst | SQL | Python | Power BI | Data Analytics
+🎯 Aspiring Data Analyst | SQL | Python | Power BI | Data Analytics
 
-📌 **GitHub:** [Add Your GitHub Profile Link](https://github.com/)
-
-📌 **LinkedIn:** [Connect With Me](https://www.linkedin.com/)
+- 🐙 **GitHub:** [github.com/chetan26agrawal](https://github.com/chetan26agrawal)
+- 💼 **LinkedIn:** [linkedin.com/in/chetan-agrawal-725428162](https://www.linkedin.com/in/chetan-agrawal-725428162/)
 
 ---
 
